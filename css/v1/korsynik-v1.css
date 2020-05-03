@@ -14,7 +14,8 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    background-color: rgba(42, 43, 46)
 }
 
 article,
@@ -226,7 +227,8 @@ html {
 }
 
 h1 {
-    font-size: 36px
+    font-size: 36px;
+    color: red;
 }
 
 h2 {
@@ -262,6 +264,12 @@ h6 {
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0
+}
+
+.content {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: gray;
 }
 
 .korsy-wide {
